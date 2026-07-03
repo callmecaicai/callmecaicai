@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="64" viewBox="0 0 560 64" role="img" aria-label="ABOUT ME">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1B6B"/>
+      <stop offset="50%" stop-color="#A44CFF"/>
+      <stop offset="100%" stop-color="#45CAFF"/>
+      <animate attributeName="x1" values="0%;-35%;0%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;135%;100%" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="u" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A44CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A44CFF"/>
+      <stop offset="100%" stop-color="#A44CFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <text x="280" y="38" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="800" letter-spacing="2.5" fill="url(#g)" filter="url(#glow)">ABOUT ME</text>
+  <rect x="190" y="52" width="180" height="3" rx="1.5" fill="url(#u)"/>
+</svg>
