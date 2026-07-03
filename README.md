@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ⚡ 渐变波浪头图 -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1B6B,50:A44CFF,100:45CAFF&height=200&section=header&text=callmecaicai&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=Xu%20Yang%20%C2%B7%20CV%20Graduate%20Student%20%40%20UCAS&descSize=17&descAlignY=56" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1B6B,50:A44CFF,100:45CAFF&height=200&section=header&text=callmecaicai&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=YangXu%20%C2%B7%20CV%20Graduate%20Student%20%40%20UCAS&descSize=17&descAlignY=56" alt="header" />
 
 <!-- ⌨️ 打字机(明暗双色) -->
 <picture>
